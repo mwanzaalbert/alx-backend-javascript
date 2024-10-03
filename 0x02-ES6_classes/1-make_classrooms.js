@@ -5,5 +5,5 @@ import ClassRoom from './0-classroom.js';
  * @returns An array of {@link ClassRoom}s.
  */
 export default function initializeRooms() {
-  return Array(19, 20, 34).map((size) => new ClassRoom(size));
+  return [19, 20, 34].map((size) => new ClassRoom(size));
 }
